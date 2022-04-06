@@ -12,4 +12,4 @@
 
 ### 榜单(动态更新，结果按多核降序)
 
-![alt 属性文本](https://www.cyberlight.xyz/static/picture-bed/py_cpu_test/data.png))
+![alt 属性文本](https://www.cyberlight.xyz/static/picture-bed/py_cpu_test/data.png)
