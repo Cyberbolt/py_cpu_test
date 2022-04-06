@@ -12,7 +12,7 @@
 
 ### 总揽成绩
 
-单核成绩与多核成绩无关。
+成绩按多核降序，单核成绩与多核成绩无关。
 
 注：若仓库存在失真数据，请在 [issues](https://github.com/Cyberbolt/py_cpu_test/issues) 发起修复请求，非常感谢你的贡献！
 
