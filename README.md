@@ -14,4 +14,4 @@
 
 注：若仓库存在失真数据，请在 [issues](https://github.com/Cyberbolt/py_cpu_test/issues) 发起修复请求，谢谢！
 
-![Python CPU 性能榜单](https://www.cyberlight.xyz/static/picture-bed/py_cpu_test/data_0.0.3.png)
+![Python CPU 性能榜单](https://www.cyberlight.xyz/static/picture-bed/py_cpu_test/data_0.0.4.png)
