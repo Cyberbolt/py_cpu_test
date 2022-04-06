@@ -10,14 +10,6 @@
 
 将本仓库 fork 至你的仓库，git clone 到本地，创建并进入一个新分支。运行 python app.py 进行测试，完成后会生成 result 目录，将 result 目录更改为`(时间)-(用户名)-(系统 Python版本)-(CPU型号)`格式【如:(20220406)-(Cyberbolt)-(Linux Python 3.8.12)-(Intel Core i7-8750H Processor)】，并将此目录移动到`test`目录中。通过 git 上传到自己的仓库后，提交 pull request 请求。提交的请求经审核后将合并至本仓库。
 
-### Python CPU 性能榜单(动态更新，结果按多核降序)
-随着测试数据的增加，[Cyberbolt](https://github.com/Cyberbolt) 会将该榜单可视化。
-```
-Apple M1 (macOS)
-单核: 355
-多核: 2030
+### 榜单(动态更新，结果按多核降序)
 
-Apple M1 (Docker Linux)
-单核: 365
-多核: 1604
-```
+![alt 属性文本](https://www.cyberlight.xyz/static/picture-bed/py_cpu_test/data.png))

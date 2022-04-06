@@ -2,6 +2,7 @@
 gen.py
 sig.py
 .DS_Store
+data_analysis/data.html
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
