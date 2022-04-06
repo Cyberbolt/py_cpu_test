@@ -12,6 +12,6 @@
 
 ### 总揽成绩
 
-同一型号的 CPU 成绩取不同贡献者测试的平均值（可能会排除部分异常值）。
+同一型号的 CPU 成绩取不同贡献者测试的平均值（可能会排除部分异常值）。如果仓库有失真数据，请联系我修复。
 
 ![Python CPU 性能榜单](https://www.cyberlight.xyz/static/picture-bed/py_cpu_test/data_0.0.2.png)
