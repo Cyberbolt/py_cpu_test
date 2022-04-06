@@ -14,13 +14,7 @@ class CpuTest:
             p = multiprocessing.Process(target=self.bubbleSort, args=(arr,))
             ps.append(p)
         
-        start2 = time.time()
         for p in ps:
             p.start()
         for p in ps:
             p.join()
-        end2 = time.time()
-        
-        spend2 = end2 - start2
-        self.score2 = int(70000 / spend2)
-        print('多核成绩: {}'.format(self.score2))
