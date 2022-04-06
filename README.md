@@ -8,7 +8,7 @@
 
 环境要求: Python 3.6+ (请使用官方 CPython 解释器)
 
-将本仓库 fork 至你的仓库，git clone 到本地，创建并进入一个新分支。运行 python app.py 进行测试，完成后会生成 result 目录，将 result 目录更改为`(时间)-(用户名)-(系统 Python版本)-(CPU型号)`格式【如:(20220406)-(Cyberbolt)-(Linux Python 3.8.12)-(Intel Core i7-8750H Processor)】，并将此目录移动到`test`目录中。通过 git 上传到自己的仓库后，提交 pull request 请求。提交的请求经审核后将合并至本仓库。
+将本仓库 fork 至你的仓库，git clone 到本地，创建并进入一个新分支。运行 python app.py 进行测试，完成后会生成 result 目录，将 result 目录更改为`时间-用户名-系统 Python版本-CPU型号`格式【如:20220406-Cyberbolt-Linux Python 3.8.12-Intel Core i7-8750H Processor】，并将此目录移动到`test`目录中。通过 git 上传到自己的仓库后，提交 pull request 请求。提交的请求经审核后将合并至本仓库。
 
 ### 总揽成绩
 
