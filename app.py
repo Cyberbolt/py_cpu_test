@@ -6,12 +6,8 @@ import platform
 import multiprocessing
 
 
-if platform.system() == 'Windows':
-    source_path = 'source_win.dict'
-    data_path = 'data_win.dict'
-else:
-    source_path = 'source.dict'
-    data_path = 'data.dict'
+source_path = 'source.dict'
+data_path = 'data.dict'
 
 with open(source_path, 'rb') as f:
     source = pickle.load(f)['source']
