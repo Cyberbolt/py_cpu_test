@@ -10,7 +10,7 @@
 
 1.将本仓库 fork 至你的仓库，git clone 到本地，创建并进入一个新分支。
 
-2.在项目根目录运行 `python app.py` 进行测试，完成后会生成 `result` 目录。
+2.在项目根目录运行 `python3 app.py` 进行测试，完成后会生成 `result` 目录。
 
 3.(可选)在 `result` 目录中创建 `remarks.txt` 文件，填写本次测试的备注信息或注意事项。
 
