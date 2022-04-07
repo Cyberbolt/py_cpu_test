@@ -1,0 +1,1 @@
+CPU 详细参数: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
