@@ -1,6 +1,9 @@
 #自定义忽略
+data.txt
 gen.py
 sig.py
+gen_win.py
+gen_win_pickle.py
 .DS_Store
 data_analysis/data.html
 

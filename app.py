@@ -6,15 +6,24 @@ import platform
 import multiprocessing
 
 
-with open('source.dict', 'rb') as f:
-    loc = locals()
-    exec('{}'.format(pickle.load(f)['source']))
-    Signature = loc['Signature']
-    Test = loc['Test']
+if platform.system() == 'Windows':
+    source_path = 'source_win.dict'
+    data_path = 'data_win.dict'
+else:
+    source_path = 'source.dict'
+    data_path = 'data.dict'
+
+with open(source_path, 'rb') as f:
+    source = pickle.load(f)['source']
+
+loc = locals()
+exec('{}'.format(source))
+Signature = loc['Signature']
+Test = loc['Test']
 
 
 def main():
-    with open('data.dict', 'rb') as f:
+    with open(data_path, 'rb') as f:
         data = pickle.load(f)
     
     test = data['obj']
