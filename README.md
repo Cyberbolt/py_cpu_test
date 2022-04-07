@@ -29,3 +29,7 @@
 注：若仓库存在失真数据，请在 [issues](https://github.com/Cyberbolt/py_cpu_test/issues) 发起修复请求，非常感谢你的贡献！
 
 ![Python CPU 性能榜单](https://www.cyberlight.xyz/static/picture-bed/py_cpu_test/data_0.0.6.png)
+
+### 源码参考
+
+算法部分请参考项目根目录的 `算法部分源码参考.py` 文件，点击可下载 [数据集](https://www.cyberlight.xyz/static/picture-bed/py_cpu_test/data.txt) 。
