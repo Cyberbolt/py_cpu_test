@@ -16,9 +16,9 @@
 
 4.更改 `result` 目录的格式
 
-若测试机器是实体主机，请将 `result` 目录更改为 `时间-用户名-系统 Python版本-CPU型号` 格式 (如:20220406-QuintinShaw-Linux Python 3.9.2-Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz) ，并将此目录移动到 `test` 目录中。
+若测试机器是实体主机，请将 `result` 目录更改为 `时间-测试者-系统 Python版本-CPU型号` 格式 (如:20220406-QuintinShaw-Linux Python 3.9.2-Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz) ，并将此目录移动到 `test` 目录中。
 
-若测试机器是云服务器，请将 `result` 目录更改为 `时间-用户名-系统 Python版本-服务器名称 CPU和内存配置 机房区域` 格式(如:20220406-Cyberbolt-Linux Python 3.8.2-阿里云轻量应用型 2核1G 新加坡) ，并将此目录移动到`test`目录中。
+若测试机器是云服务器，请将 `result` 目录更改为 `时间-测试者-系统 Python版本-服务器名称 CPU和内存配置 机房区域` 格式(如:20220406-Cyberbolt-Linux Python 3.8.2-阿里云轻量应用型 2核1G 新加坡) ，并将此目录移动到`test`目录中。
 
 5.通过 git 上传到自己的仓库后，提交 pull request 请求。提交的请求经审核后将合并至本仓库。
 
